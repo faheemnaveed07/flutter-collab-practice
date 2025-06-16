@@ -36,7 +36,8 @@ class MyHomePage extends StatelessWidget {
       // ABHI BODY KHAALI HAI
       body: const Center(
         child: Text(
-          'Welcome to our collaboration project with small intigration system',style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold),,
+          'Welcome to our collaboration project with small intigration system',
+          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
         ),
       ),
       // ABHI KOI FLOATING ACTION BUTTON NAHI HAI
