@@ -29,6 +29,11 @@ class MyHomePage extends StatelessWidget {
       // ABHI BODY KHAALI HAI
       body: const Center(child: Text('Project Start Ho Gaya Hai!')),
       // ABHI KOI FLOATING ACTION BUTTON NAHI HAI
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        tooltip: 'Add',
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
