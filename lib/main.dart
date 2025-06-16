@@ -27,7 +27,11 @@ class MyHomePage extends StatelessWidget {
       // ABHI APPBAR SIMPLE HAI
       appBar: AppBar(title: const Text('Initial Project')),
       // ABHI BODY KHAALI HAI
-      body: const Center(child: Text('Project Start Ho Gaya Hai!')),
+      body: const Center(
+        child: Text(
+          'Welcome to our collaboration project with small intigration system',style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold),,
+        ),
+      ),
       // ABHI KOI FLOATING ACTION BUTTON NAHI HAI
     );
   }
