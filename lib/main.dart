@@ -25,7 +25,14 @@ class MyHomePage extends StatelessWidget {
     // Yahan humara initial UI code hai
     return Scaffold(
       // ABHI APPBAR SIMPLE HAI
-      appBar: AppBar(title: const Text('Initial Project')),
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+        centerTitle: true,
+        title: const Text(
+          'Initial Project',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
       // ABHI BODY KHAALI HAI
       body: const Center(child: Text('Project Start Ho Gaya Hai!')),
       // ABHI KOI FLOATING ACTION BUTTON NAHI HAI
