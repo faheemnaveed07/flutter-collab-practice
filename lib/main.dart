@@ -22,9 +22,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Yahan humara initial UI code hai
     return Scaffold(
-      // ABHI APPBAR SIMPLE HAI
       appBar: AppBar(
         backgroundColor: Colors.teal,
         centerTitle: true,
@@ -33,14 +31,12 @@ class MyHomePage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      // ABHI BODY KHAALI HAI
       body: const Center(
         child: Text(
           'Welcome to our collaboration project with small intigration system',
           style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
         ),
       ),
-      // ABHI KOI FLOATING ACTION BUTTON NAHI HAI
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         tooltip: 'Add',
