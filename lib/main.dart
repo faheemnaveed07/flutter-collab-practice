@@ -31,10 +31,23 @@ class MyHomePage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: const Center(
-        child: Text(
-          'Welcome to our collaboration project with small intigration system',
-          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+      body:  Center(
+        child: Card(
+          elevation: 5,
+
+          child: Column(
+            children: [
+              Text(
+                'Doctor said: you need vitamin "V"',
+                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+              ),
+              Text('Le Vitamin "V"',style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold,color: Colors.orangeAccent),),
+              Icon(Icons.arrow_downward_outlined,size: 20,),
+              ClipOval(
+                child: Image.asset('assets/images/pic1.jpg',width: 280,height: 350,fit: BoxFit.cover,),
+              )
+            ],
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
